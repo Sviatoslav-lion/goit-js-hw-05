@@ -10,7 +10,7 @@
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
-
+```
 console.log(
   getUserNames([
   {
@@ -50,7 +50,7 @@ console.log(
   },
 ])
 ); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
-
+```
 
 Залиш цей код для перевірки ментором.
 
@@ -76,7 +76,7 @@ console.log(
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
-
+```
 const allUsers = [
   {
     name: "Moore Hensley",
@@ -133,7 +133,7 @@ console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
 // ]
 
 console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
-
+```
 Залиш цей код для перевірки ментором.
 
 
@@ -148,7 +148,7 @@ console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
-
+```
 console.log(
   sortByDescendingFriendCount([
     {
@@ -225,7 +225,7 @@ console.log(
 //     gender: "male"
 //   }
 // ]
-
+```
 Залиш цей код для перевірки ментором.
 
 ## Задача 4. Загальний баланс
@@ -240,7 +240,7 @@ console.log(
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
-
+```
 const clients = [
 	{
     name: "Moore Hensley",
@@ -282,5 +282,5 @@ const clients = [
 console.log(getTotalBalanceByGender(clients, "male")); // 12053
 
 console.log(getTotalBalanceByGender(clients, "female")); // 8863
-
+```
 Залиш цей код для перевірки ментором.
