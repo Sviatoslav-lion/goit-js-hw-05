@@ -1,8 +1,8 @@
-function getTotalBalanceByGender(users, gender) {
-    return users
+const getTotalBalanceByGender = (users, gender) => 
+  users
     .filter(usr => usr.gender === gender)               // відфільтровуємо користувачів по статі
     .reduce((total, user) => total + user.balance, 0);  // рахуємо підсумок
-}
+
 
 const clients = [
 	{

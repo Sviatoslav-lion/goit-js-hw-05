@@ -1,16 +1,4 @@
-function getUserNames(users) {
-    
-    let userArray = [];           // створюємо порожній масив
-
-    /* Спосб номер раз :)
-    for (const usr of users) {      // перебираємо об'єкт
-	    userArray.push(usr.name);   // записуємо в порожній масив імена користувачів з об'єкту
-    }
-    return userArray;       // повертаємо масив імен
-    */
-
-    return userArray = users.map(usr => usr.name); // формуємо иа повертаємо масив імен з об'єкту 
-}
+const getUserNames = (users) => users.map(usr => usr.name);
 
 console.log(
     getUserNames([
